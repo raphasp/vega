@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Vega, Balbuena & Asociados S.C.</title>
+	<meta name="description" content="1er Congreso Nacional de Psicología" />
+	<meta name="keywords" content="psicología, congreso nacional, psicología contemporanea, conferencia" />
+	<meta name="author" content="think" />
+	<link rel="shortcut icon" type="image/png" href="iconvega.icon">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/jsindex.js"></script>
+	<script type="text/javascript" src='js/modernizr.js'></script>
+</head>
+<body>
+	<nav id="menu" class='nav'>
+		<ul>
+			<li>
+				<a href="#" title="">
+					<span class="icon">
+						<i aria-hidden="true" class="icon-inicio"></i>
+					</span><span>Inicio</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" title="">
+					<span class="icon">
+						<i aria-hidden="true" class="icon-firma"></i>
+					</span>
+					<span>Firma</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" title="">
+					<span class="icon">
+						<i aria-hidden="true" class="icon-filosofia"></i>
+					</span>
+					<span>Filosofía</span>
+				</a>
+			</li>
+			<li>
+				<a href="#"  title="">
+					<span class="icon">
+						<i aria-hidden="true" class="icon-servicios"></i>
+					</span>
+					<span>Servicios</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" title="">
+					<span class="icon">
+						<i aria-hidden="true" class="icon-contenido"></i>
+					</span>
+					<span>Contenido</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" title="">
+					<span class="icon">
+						<i aria-hidden="true" class="icon-contacto"></i>
+					</span>
+					<span>Contacto</span>
+				</a>
+			</li>
+		</ul>
+	</nav>
+	<script>
+		//  The function to change the class
+	var changeClass = function (r,className1,className2) {
+		var regex = new RegExp("(?:^|\\s+)" + className1 + "(?:\\s+|$)");
+		if( regex.test(r.className) ) {
+			r.className = r.className.replace(regex,' '+className2+' ');
+		}
+		else{
+			r.className = r.className.replace(new RegExp("(?:^|\\s+)" + className2 + "(?:\\s+|$)"),' '+className1+' ');
+		}
+		return r.className;
+	};	
+
+			//  Creating our button in JS for smaller screens
+			var menuElements = document.getElementById('menu');
+			menuElements.insertAdjacentHTML('afterBegin','<button type="button" id="menutoggle" class="navtoogle" aria-hidden="true"><i aria-hidden="true" class="icon-menu"> </i> Menu</button>');
+
+			//  Toggle the class on click to show / hide the menu
+			document.getElementById('menutoggle').onclick = function() {
+				changeClass(this, 'navtoogle active', 'navtoogle');
+			}
+
+			// http://tympanus.net/codrops/2013/05/08/responsive-retina-ready-menu/comment-page-2/#comment-438918
+			document.onclick = function(e) {
+				var mobileButton = document.getElementById('menutoggle'),
+					buttonStyle =  mobileButton.currentStyle ? mobileButton.currentStyle.display : getComputedStyle(mobileButton, null).display;
+
+				if(buttonStyle === 'block' && e.target !== mobileButton && new RegExp(' ' + 'active' + ' ').test(' ' + mobileButton.className + ' ')) {
+					changeClass(mobileButton, 'navtoogle active', 'navtoogle');
+				}
+			}
+		</script>
+</body>
+
+Derecho Civil
+Derecho Mercantil
+Derecho Familiar
+Derecho Penal
+Derecho Laboral Corporativo y Laboral en General
+Derecho Administrativo Contencioso</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-418" id="menu-item-418"><a href="http://www.juridico-integral.com/abogados/servicios/derecho-en-propiedad-intelectual-patentes-y-marcas/">
+Derecho en Propiedad Intelectual, Patentes y Marcas</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-419" id="menu-item-419"><a href="http://www.juridico-integral.com/abogados/servicios/derecho-societario/">
+Derecho Societario</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-420" id="menu-item-420"><a href="http://www.juridico-integral.com/abogados/servicios/derecho-ambiental/">
+Derecho Ambiental</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-421" id="menu-item-421"><a href="http://www.juridico-integral.com/abogados/servicios/derecho-urbanistico/">
+Derecho Urbanístico</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-422" id="menu-item-422"><a href="http://www.juridico-integral.com/abogados/servicios/control-constitucional-mexicano/">
+Control Constitucional Mexicano</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-423" id="menu-item-423"><a href="http://www.juridico-integral.com/abogados/servicios/recuperacion-de-cobranza-extrajudicial-marketing/">
+Recuperación de Cobranza Extrajudicial (Marketing)</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-424" id="menu-item-424"><a href="http://www.juridico-integral.com/abogados/servicios/derecho-fiscal/">
+Derecho Fiscal</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-426" id="menu-item-426"><a href="http://www.juridico-integral.com/abogados/servicios/derecho-agrario/">
+Derecho Agrario</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-11 current_page_item menu-item-425" id="menu-item-425"><a href="http://www.juridico-integral.com/abogados/corresponsalia/">
+Corresponsalía</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-427" id="menu-item-427"><a href="http://www.juridico-integral.com/abogados/servicios/">- – OTROS – -</a></li></ul>
